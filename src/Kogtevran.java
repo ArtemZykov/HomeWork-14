@@ -1,7 +1,7 @@
 public class Kogtevran extends Students {
-    int smart;//умный
-    int wise;//мудрый
-    int creative; // креативный
+    private int smart;//умный
+    private int wise;//мудрый
+    private int creative; // креативный
     public Kogtevran(String name, String surname, int magic, int transgressions, int smart, int wise, int creative) {
         super(name, surname, magic, transgressions);
         this.smart = smart;
@@ -26,8 +26,8 @@ public class Kogtevran extends Students {
     public void setCreative(int creative) {
         this.creative = creative;
     }
-    public void printPeople() {
-        super.printPeople();
+    public void printStudentInfo() {
+        super.printStudentInfo();
         System.out.println("Свойства Когтеврана: ");
         System.out.println("Трудолюбие: " + smart);
         System.out.println("Верность: " + wise);

@@ -30,13 +30,13 @@ public class Main {
 
 
         System.out.println();
-        harryPotter.printPeople();
+        harryPotter.printStudentInfo();
         harryPotter.compareWith(germionaGrange, ronUizli);
-        grigoriyLeps.printPeople();
+        grigoriyLeps.printStudentInfo();
         grigoriyLeps.compareWith(grigoriyLeps,grehemMontegy);
-        zahariySmit.printPeople();
+        zahariySmit.printStudentInfo();
         chgouChang.compareWith(chgouChang,markusBelbi);
-        chgouChang.printPeople();
+        chgouChang.printStudentInfo();
         padmaPatil.compareWith(padmaPatil, markusBelbi);
 
 

@@ -1,7 +1,7 @@
 public class Grifindor extends Students {
-    int nobility;
-    int honor;
-    int bravery;
+    private int nobility;
+    private int honor;
+    private int bravery;
     public Grifindor(String name, String surname, int nobility, int honor, int bravery, int transgressions, int magic) {
         super(name, surname, magic, transgressions);
         this.nobility = nobility;
@@ -26,8 +26,8 @@ public class Grifindor extends Students {
     public void setBravery(int bravery) {
         this.bravery = bravery;
     }
-    public void printPeople() {
-        super.printPeople();
+    public void printStudentInfo() {
+        super.printStudentInfo();
         System.out.println("Свойства Гриффиндорцев: ");
         System.out.println("Благородство: " + nobility);
         System.out.println("Честь: " + honor);

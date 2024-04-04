@@ -34,7 +34,7 @@ public class Students {
     public void setTransgressions(int transgressions) {
         this.transgressions = transgressions;
     }
-    public void printPeople() {
+    public void printStudentInfo() {
         System.out.println("Студент :" + getName() + getSurname());
         System.out.println("Магия : " + getMagic() + getTransgressions());
     }

@@ -1,7 +1,7 @@
 public class Puffenduy extends Students {
-    int hardworking;
-    int loyal;
-    int honest;
+    private int hardworking;
+    private int loyal;
+    private int honest;
     public Puffenduy(String name, String surname, int magic, int transgressions, int hardworking, int loyal, int honest) {
         super(name, surname, magic, transgressions);
         this.hardworking = hardworking;
@@ -26,8 +26,8 @@ public class Puffenduy extends Students {
     public void setHonest(int honest) {
         this.honest = honest;
     }
-    public void printPeople() {
-        super.printPeople();
+    public void printStudentInfo() {
+        super.printStudentInfo();
         System.out.println("Свойства Пуффендуев: ");
         System.out.println("Трудолюбие: " + hardworking);
         System.out.println("Верность: " + loyal);

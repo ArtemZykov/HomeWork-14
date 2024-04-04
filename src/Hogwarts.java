@@ -11,14 +11,14 @@ public class Hogwarts {
         } else if (magicalPower1 < magicalPower2) {
             System.out.println(student2.getName() + " превосходит " + student1.getName() + " по силе магии.");
         } else {
-            System.out.println("Сравнение между " + student1.getName() + " и " + student2.getName() + " невозможно, так как их силы равны.");
+            System.out.println("Сравнение между " + student1.getName() + " и " + student2.getName() + " невозможно, так как их силы магии равны.");
         }
         if (teleportDistance1 > teleportDistance2) {
             System.out.println(student1.getName() + " превосходит " + student2.getName() + " по телепортации.");
         } else if (teleportDistance1 < teleportDistance2) {
             System.out.println(student2.getName() + " превосходит " + student1.getName() + " по телепортации.");
         } else {
-            System.out.println("Сравнение между " + student1.getName() + " и " + student2.getName() + " невозможно, так как их силы равны.");
+            System.out.println("Сравнение между " + student1.getName() + " и " + student2.getName() + " невозможно, так как их силы телепортации равны.");
 
         }
     }
