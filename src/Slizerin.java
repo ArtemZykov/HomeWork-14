@@ -5,59 +5,71 @@ public class Slizerin extends Students {
     private int resourcefulness; // находчивость
     private int thirstForPower; // жажда власти
 
-    public Slizerin (String name, String surname, int magic, int transgressions, int cunning, int determination, int ambition,
+    public Slizerin(String name, String surname, int magic, int transgressions, int cunning, int determination, int ambition,
                     int resourcefulness, int thirstForPower) {
-        super (name, surname, magic, transgressions);
+        super(name, surname, magic, transgressions);
         this.cunning = cunning;
         this.determination = determination;
         this.ambition = ambition;
         this.resourcefulness = resourcefulness;
         this.thirstForPower = thirstForPower;
     }
-    public int getCunning () {
+
+    public int getCunning() {
         return cunning;
     }
-    public void setCunning (int cunning) {
+
+    public void setCunning(int cunning) {
         this.cunning = cunning;
     }
-    public int getDetermination () {
+
+    public int getDetermination() {
         return determination;
     }
-    public void setDetermination (int determination) {
+
+    public void setDetermination(int determination) {
         this.determination = determination;
     }
-    public int getAmbition () {
+
+    public int getAmbition() {
         return ambition;
     }
-    public void setAmbition (int ambition) {
+
+    public void setAmbition(int ambition) {
         this.ambition = ambition;
     }
-    public int getResourcefulness () {
+
+    public int getResourcefulness() {
         return resourcefulness;
     }
-    public void setResourcefulness (int resourcefulness) {
+
+    public void setResourcefulness(int resourcefulness) {
         this.resourcefulness = resourcefulness;
     }
-    public int getThirstForPower () {
+
+    public int getThirstForPower() {
         return thirstForPower;
     }
-    public void setThirstForPower (int thirstForPower) {
+
+    public void setThirstForPower(int thirstForPower) {
         this.thirstForPower = thirstForPower;
     }
-    public void printStudentInfo () {
-        super.printStudentInfo ();
+
+    public void printStudentInfo() {
+        super.printStudentInfo();
         System.out.println("Свойства Слизарена: ");
         System.out.println("Хитрость: " + cunning);
         System.out.println("Решительность: " + determination);
         System.out.println("Амбициозность : " + ambition);
         System.out.println(" Находчивость " + resourcefulness);
-        System.out.println( "Жажда власти: " + thirstForPower);
+        System.out.println("Жажда власти: " + thirstForPower);
     }
-    public void compareWith (Slizerin student1, Slizerin student2) {
+
+    public void compareWith(Slizerin student1, Slizerin student2) {
         int sum1 = student1.cunning + student1.determination + student1.ambition + student1.resourcefulness + student1.thirstForPower;
         int sum2 = student2.cunning + student2.determination + student2.ambition + student2.resourcefulness + student2.thirstForPower;
         if (sum1 > sum2) {
-            System.out.println(student1.name + " " + student1. surname + " является лучшим учеником Слизарена.");
+            System.out.println(student1.name + " " + student1.surname + " является лучшим учеником Слизарена.");
         } else if (sum1 < sum2) {
             System.out.println(student2.name + " является лучшим учеником Слизарена.");
         } else {

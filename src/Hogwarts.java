@@ -1,5 +1,5 @@
 public class Hogwarts {
-    public static void compareStudents (Students student1, Students student2) {
+    public static void compareStudents(Students student1, Students student2) {
         int magicalPower1 = student1.getMagic();
         int magicalPower2 = student2.getMagic();
 

@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Grifindor harryPotter = new Grifindor("Гарри",  "Поттер", 9, 85, 35,
+        Grifindor harryPotter = new Grifindor("Гарри", "Поттер", 9, 85, 35,
                 74, 5);
         Grifindor germionaGrange = new Grifindor("Гермиона", "Грейндж", 17, 3, 12,
                 45, 1);
@@ -8,11 +8,11 @@ public class Main {
                 11, 2);
 
         Slizerin drakMalfloy = new Slizerin("Драк", "Малфлой", 81, 1, 12,
-                3, 17,1,12);
+                3, 17, 1, 12);
         Slizerin grehemMontegy = new Slizerin("Грекхем", "Монтегри", 13, 22, 66,
-                43, 1,11,12);
+                43, 1, 11, 12);
         Slizerin grigoriyLeps = new Slizerin("Григорий", "Лепс", 11, 77, 87,
-                99, 67, 13,88);
+                99, 67, 13, 88);
 
         Puffenduy zahariySmit = new Puffenduy("Захария", "Смит", 12, 3, 7,
                 7, 45);
@@ -33,18 +33,14 @@ public class Main {
         harryPotter.printStudentInfo();
         harryPotter.compareWith(germionaGrange, ronUizli);
         grigoriyLeps.printStudentInfo();
-        grigoriyLeps.compareWith(grigoriyLeps,grehemMontegy);
+        grigoriyLeps.compareWith(grigoriyLeps, grehemMontegy);
         zahariySmit.printStudentInfo();
-        chgouChang.compareWith(chgouChang,markusBelbi);
+        chgouChang.compareWith(chgouChang, markusBelbi);
         chgouChang.printStudentInfo();
         padmaPatil.compareWith(padmaPatil, markusBelbi);
 
 
-
     }
-
-
-
 
 
 }
